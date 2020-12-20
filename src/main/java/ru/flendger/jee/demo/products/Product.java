@@ -2,9 +2,9 @@ package ru.flendger.jee.demo.products;
 
 public class Product {
 
-    private int id;
-    private String title;
-    private float cost;
+    private final int id;
+    private final String title;
+    private final float cost;
 
     public Product(int id, String title, float cost) {
         this.id = id;
